@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Promogroup</title>
 
+  <!-- FAVICON  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <!-- FONTS  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +27,36 @@
 </head>
 <body>
 
+  <!-- LOADER  -->
+  <div class="loader-wrapper js-loader">
+    <span class="loader"></span>
+  </div>
 
+  <!-- SITE-HEADER  -->
+  <header class="site-header">
+    <div class="container site-header__container">
+
+      <!-- LOGO  -->
+      <a class="logo site-header__logo" href="index.html">
+        <img class="logo__img" src="img/logo.svg" alt="Promogroup logo" width="297" height="46">
+      </a>
+
+      <!-- SITENAV  -->
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Проекты</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link sitenav__link--active" href="#">О компании </a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <script src="js/main.js"></script>
 </body>
 </html>
